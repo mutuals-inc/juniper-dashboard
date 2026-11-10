@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #313338;
+  --bg-secondary: #2b2d31;
+  --bg-tertiary: #1e1f22;
+  --bg-message-hover: #2e3035;
+  --bg-active: #404249;
+  --text-primary: #f2f3f5;
+  --text-secondary: #b5bac1;
+  --text-muted: #949ba4;
+  --text-link: #00a8fc;
+  --border: #3f4147;
+  --accent-juniper: #e07b39;
+  --accent-user: #5865f2;
+  --green-online: #23a55a;
+  --scrollbar-thumb: #1a1b1e;
+  --scrollbar-track: #2b2d31;
+  --input-bg: #383a40;
+  --dm-bubble-juniper: #383a40;
+  --dm-bubble-user: #5865f2;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.375;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: var(--text-muted);
+}

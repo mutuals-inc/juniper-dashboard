@@ -1,0 +1,6 @@
+{
+  "buildCommand": "JUNIPER_DATA_SOURCE=json npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "npm install"
+}
